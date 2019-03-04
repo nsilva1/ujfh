@@ -13,7 +13,7 @@ class Landing extends Component {
 
         {/* </center>  */}
 
-        <h1 class="storename"> Zara Fashion </h1>
+        <h1 class="storename"> UJ Fashion House </h1>
       </div>
     );
   }
