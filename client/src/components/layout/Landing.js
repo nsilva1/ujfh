@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Landing extends Component {
   render() {
     return (
       <div class="splash">
         {/* <center>  */}
-        <button id="homebutton">SHOP NOW</button>
+        <Link to='/shop' ><button id="homebutton">SHOP NOW</button></Link>
 
-        <button id="homebutton">LOG IN</button>
+        <Link to='/login' ><button id="homebutton">LOG IN</button></Link>
 
-        <button id="homebutton">SIGN UP</button>
+        <Link to='/signup' ><button id="homebutton">SIGN UP</button></Link>
 
         {/* </center>  */}
 
